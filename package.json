@@ -1,9 +1,13 @@
 {
-  "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
+  "name": "feathercoin-api",
+  "description": "A Feathercoin blockchain REST and web socket API service for Feathercore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/FeatherCoin/feathercoin-api.git",
   "contributors": [
+    {
+      "name": "Peter Bushnell",
+      "email": "peter.bushnell@feathercoin.com"
+    },
     {
       "name": "Gustavo Cortez",
       "email": "cmgustavo83@gmail.com"
@@ -49,7 +53,7 @@
     "bitcoin api",
     "blockchain api",
     "json",
-    "bitcore"
+    "feathercore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "^0.13.7",
-    "bitcore-message": "^1.0.1",
+    "feathercore-lib": "^0.13.19",
+    "feathercore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
