@@ -1,7 +1,7 @@
 {
   "name": "feathercoin-api",
   "description": "A Feathercoin blockchain REST and web socket API service for Feathercore Node.",
-  "version": "0.4.3",
+  "version": "0.4.5",
   "repository": "git://github.com/FeatherCoin/feathercoin-api.git",
   "contributors": [
     {
